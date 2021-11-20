@@ -18,11 +18,11 @@ body{
     padding-bottom: 7px;
     background-color: white;
     overflow: auto;
-    line-height: 20px;
+    line-height: 22px;
 }
 
 .menu li{
-    margin-right: 14px;
+    margin-right: 10px;
     margin-bottom: 4px;
     display: inline;    
 }
