@@ -18,6 +18,7 @@ body{
     padding-bottom: 7px;
     background-color: white;
     overflow: auto;
+    line-height: 20px;
 }
 
 .menu li{
