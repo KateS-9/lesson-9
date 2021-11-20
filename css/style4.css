@@ -23,6 +23,7 @@ body{
 .menu li{
     float: left;
     margin-right: 14px;
+    margin-bottom: 5px;
     white-space: normal;
 }
 
