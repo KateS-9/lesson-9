@@ -7,7 +7,7 @@
 
 body{
     background-color: #f5f5f5;
-    margin: 5px 5px 0 5px;
+    margin: 8px 5px 0 8px;
 }
 
 .menu ul{
@@ -28,8 +28,8 @@ body{
     padding: 10px;
     color: white;
     background-color: #ec8f04;
-    width: 115px;
-    font-size: 19px;
+    width: 94px;
+    font-size: 16px;
 }
 
 .menu{
