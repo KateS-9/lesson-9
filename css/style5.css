@@ -1,0 +1,30 @@
+*{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+body{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.square ul{
+	margin: auto;
+	padding: 0;
+	list-style: none;
+}
+.square li {
+	float: left;
+ 	width: 19%;   
+	border: 1px solid #ddd;
+	margin: -1px -1px 0 0; /* Уберем двойную рамку */ 
+	padding: 40px 0;
+	text-align: center;
+    position: relative;
+}
+
+.square li:nth-child(odd) {
+	background: PaleGreen;
+}

@@ -21,10 +21,9 @@ body{
 }
 
 .menu li{
-    float: left;
     margin-right: 14px;
     margin-bottom: 4px;
-    white-space: normal;
+    display: inline;    
 }
 
 .menu h3{
