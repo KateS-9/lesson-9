@@ -24,8 +24,7 @@ body{
 .menu li{
     margin-right: 10px;
     margin-bottom: 4px;
-    display: inline; 
-    transform: scaleY(1.1);   
+    display: inline;
 }
 
 .menu h3{
