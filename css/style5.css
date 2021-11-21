@@ -2,30 +2,37 @@
     margin:0;
     padding: 0;
 }
+
 .square {
     width: 100vh;
     height: 100vh;
     margin: 0 auto;
-    text-align: center;
 }
 .square .orange_square { 
-    width: 20vh;
-    height: 20vh;
-    display: inline-block;
+    background: none #ffcf73;
     color:#6b8fd4;
     font-family: 'Times New Roman';
-    background-color: #ffcf73;
-    line-height: 20vh;  
-    position: relative;
+    min-width: 20vh;
+    min-height: 20vh;
 }
 
 .square .blue_square {
-    width: 20vh;
-    height: 20vh;
+   background: none #6b8fd4;
+   color:#ffcf73; 
+   font-family: 'Times New Roman';
+   min-width: 20vh;
+   min-height: 20vh;
+}
+
+.square div {
     display: inline-block;
-    color:#ffcf73;
-    font-family: 'Times New Roman';
-    background-color: #6b8fd4;
-    line-height: 20vh;
-    position: relative;
+    float: left;
+    text-align: center; 
+}
+
+.square div p {
+    height: 20vh;
+    width: 20vh;
+    display: table-cell;
+    vertical-align: middle;
 }
