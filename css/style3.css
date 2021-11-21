@@ -11,7 +11,7 @@
     border-right: 1px solid #dddddd;
     background: #fff;
     border-radius: 1px;
-    font-family: 'Verdana';
+    font-family:Verdana, Tahoma, sans-serif;;
 }
 
 .widget h3{
