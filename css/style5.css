@@ -3,33 +3,29 @@
     padding: 0;
 }
 .square {
-    width: 60%;
-    height: 100%;
+    width: 100vh;
+    height: 100vh;
     margin: 0 auto;
     text-align: center;
 }
 .square .orange_square { 
-    width: 10vw;
-    height: 10vw;
-    min-width: 10vw;
-    min-height: 10vw;
+    width: 20vh;
+    height: 20vh;
     display: inline-block;
     color:#6b8fd4;
     font-family: 'Times New Roman';
     background-color: #ffcf73;
-    line-height: 10vw;  
+    line-height: 20vh;  
     position: relative;
 }
 
 .square .blue_square {
-    width: 10vw;
-    height: 10vw;
-    min-width: 10vw;
-    min-height: 10vw;
+    width: 20vh;
+    height: 20vh;
     display: inline-block;
     color:#ffcf73;
     font-family: 'Times New Roman';
     background-color: #6b8fd4;
-    line-height: 10vw;
+    line-height: 20vh;
     position: relative;
 }
