@@ -15,10 +15,10 @@
     min-height: 10vw;
     display: inline-block;
     color:#6b8fd4;
+    font-family: 'Times New Roman';
     background-color: #ffcf73;
     line-height: 10vw;  
     position: relative;
-    
 }
 .square .blue_square {
     width: 10vw;
@@ -27,6 +27,7 @@
     min-height: 10vw;
     display: inline-block;
     color:#ffcf73;
+    font-family: 'Times New Roman';
     background-color: #6b8fd4;
     line-height: 10vw;
     position: relative;
