@@ -1,38 +1,39 @@
 *{
-    margin:0;
-    padding: 0;
+    margin: 0;
+    padding: 0; 
 }
 
 .square {
-    width: 100vh;
     height: 100vh;
+    width: 100vh;
     margin: 0 auto;
 }
+
 .square .orange_square { 
-    background: none #ffcf73;
-    color:#6b8fd4;
-    font-family: 'Times New Roman';
-    min-width: 20vh;
-    min-height: 20vh;
+    background-color: #ffcf73;
+    color: #6b8fd4;
+    position: relative;
 }
 
 .square .blue_square {
-   background: none #6b8fd4;
-   color:#ffcf73; 
-   font-family: 'Times New Roman';
-   min-width: 20vh;
-   min-height: 20vh;
+   background-color: #6b8fd4;
+   color: #ffcf73; 
 }
 
-.square div {
+.square ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 0;
+}
+
+.square li {
     display: inline-block;
-    float: left;
-    text-align: center; 
-}
-
-.square div p {
     height: 20vh;
     width: 20vh;
-    display: table-cell;
+    line-height: 20vh;
     vertical-align: middle;
+    font-family: 'Times New Roman';
+    font-size: 20px;
 }
